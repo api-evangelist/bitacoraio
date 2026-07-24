@@ -1,7 +1,26 @@
 aid: bitacoraio
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bitacoraio.png
 name: Bitacora.io
-description: Bitacora.io is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Bitacora.io is a Mexican field-data and operations platform (a 500 Global
+  / 500 LatAm Batch 14 startup) that helps deskless teams in construction, maintenance,
+  and field services capture reports, photos, tasks, and events from the field. Its
+  mobile and web apps work offline and sync to the cloud when connectivity returns,
+  turning field activity into searchable records, PDF and Excel exports, map and gallery
+  views, and real-time analytics dashboards for managers. Bitacora is a SaaS product
+  rather than a developer-API company - it offers custom development, integrations,
+  and KPI dashboards as professional services, but does not publish a public self-serve
+  API, OpenAPI specification, or SDK.
 url: https://raw.githubusercontent.com/api-evangelist/bitacoraio/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +30,21 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Field Service
+- Field Data Collection
+- Construction
+- Maintenance
+- Operations
+- Mobile App
+- Offline First
+- Analytics
+- Reporting
+- Task Management
+- Latin America
+- SaaS
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +54,17 @@ maintainers:
 common:
 - type: Website
   url: https://bitacora.io
+- type: Support
+  name: Help Center (Ayuda)
+  url: https://bitacora.io/ayuda/
+- type: GitHubOrganization
+  name: Bitacora-io on GitHub
+  url: https://github.com/Bitacora-io
+- type: DomainSecurity
+  name: Domain Security Probe
+  url: security/bitacoraio-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
